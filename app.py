@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template('index.html')  # Serving HTML file
+    return render_template('index.html')  # This should match your HTML file in templates/
 
-if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=5000)  # Ensure it's accessible
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
