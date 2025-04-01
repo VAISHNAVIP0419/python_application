@@ -3,15 +3,25 @@
 Overview
 This project demonstrates how to containerize a simple Python Flask application using Docker. The Flask app runs inside a Docker container and is accessible through a web browser.
 
+
+
+
 Tech Stack
 Python – Backend programming language
 Flask – Web framework for building the application
 Docker – Containerization tool
 
 
+
+
+
 Prerequisites
 Docker installed on your machine
 Basic knowledge of Docker concepts
+
+
+
+
 
 
 Project Structure
@@ -22,12 +32,20 @@ demo_project.sh – Script to automate the build and run process
 
 
 
+
+
+
+
 How It Works
 The Flask application runs a simple web server that returns a message.
 The Dockerfile defines the environment for running the app inside a container.
 The Docker image is built using the provided configuration.
 The Docker container runs the Flask application and makes it accessible on a specific port.
 The demo_project.sh script automates the process of building, running, and verifying the app.
+
+
+
+
 
 
 
