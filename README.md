@@ -3,6 +3,8 @@
 Overview
 This project demonstrates how to containerize a simple Python Flask application using Docker. The Flask app runs inside a Docker container and is accessible through a web browser.
 
+[Dockerize python flask application.pdf](https://github.com/user-attachments/files/19562318/Dockerize.python.flask.application.pdf)
+
 
 
 
